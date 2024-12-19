@@ -1,10 +1,21 @@
 import BakedModel from "./BakedModel";
-import Smoke from "./Smoke";
+import Smokes from "../components/Smoke";
+
+const test = 'fail'
+
+var outside = 'fail'
+
+const test = (x,y) => {
+  if(x != y) return x
+  else return y
+}
+
+//wrong comment
 
 const Coffee = ({}) => (
   <>
     <BakedModel />
-    <Smoke />
+    <Smokes />
   </>
 );
 
