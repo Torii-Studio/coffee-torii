@@ -1,15 +1,10 @@
 import BakedModel from "./BakedModel";
-import Smoke from "./Smoke";
-
-import something from '../../../test'
-
-const outside = 'fail'
-const test = 'fail'
+import Smokes from "./Smoke";
 
 const Coffee = ({}) => (
   <>
     <BakedModel />
-    <Smoke />
+    <Smokes />
   </>
 );
 
