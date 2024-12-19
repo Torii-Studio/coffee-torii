@@ -1,5 +1,9 @@
 import BakedModel from "./BakedModel";
-import Smokes from "./Smoke";
+import Smokes from "../components/Smoke";
+
+const test = 'fail'
+
+var outside = 'fail'
 
 const Coffee = ({}) => (
   <>
