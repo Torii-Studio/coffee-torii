@@ -5,7 +5,7 @@ const test = 'fail'
 
 var outside = 'fail'
 
-export SecondComponent = () => {}
+const SecondComponent = () => {}
 
 const Coffee = ({}) => (
   <>
