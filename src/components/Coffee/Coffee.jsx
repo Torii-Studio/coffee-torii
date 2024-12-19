@@ -5,7 +5,10 @@ const test = 'fail'
 
 var outside = 'fail'
 
-const SecondComponent = () => {}
+const test = (x,y) => {
+  if(x) return x
+  else return y
+}
 
 const Coffee = ({}) => (
   <>
