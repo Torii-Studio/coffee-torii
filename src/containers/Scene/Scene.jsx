@@ -1,7 +1,10 @@
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 
-import Camera from "components/Camera";
+import Camera from "../../components/Camera";
 import Coffee from "components/Coffee";
+
+const outside = 'fail'
+const test = 'fail'
 
 const Scene = () => (
   <>
