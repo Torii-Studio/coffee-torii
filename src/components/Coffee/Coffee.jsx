@@ -6,7 +6,7 @@ const test = 'fail'
 var outside = 'fail'
 
 const test = (x,y) => {
-  if(x) return x
+  if(x != y) return x
   else return y
 }
 
